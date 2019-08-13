@@ -1,7 +1,4 @@
 
-#include <ics46/factory/DynamicFactory.hpp>
-#include "MyAI.hpp"
-ICS46_DYNAMIC_FACTORY_REGISTER(OthelloAI, ketans1::MyAI, "Ketan's AI (Required)");
 
 std::pair<int, int> ketans1::MyAI::chooseMove(const OthelloGameState& state)
 // Sets recursion depth at 2, checks who is playing as who and calculates best possible move
